@@ -7,15 +7,16 @@ import "fmt"
 
 var mmdd = [42]int{99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99}
 
-var in_nen int = 1958
-var in_tsuki int = 10
-
 const bs_nen int = 2000
 const bs_yobi int = 6
 
 
 func main() {
 	//fmt.Println("Start")
+      var in_nen int
+      var in_tsuki int
+      fmt.Scan(&in_nen)
+      fmt.Scan(&in_tsuki)
       var nisu int = 0
       var yobi int = 0
       if in_nen >= bs_nen {

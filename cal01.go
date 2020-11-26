@@ -15,7 +15,9 @@ func main() {
 	//fmt.Println("Start")
       var in_nen int
       var in_tsuki int
+      fmt.Print("input year > ")
       fmt.Scan(&in_nen)
+      fmt.Print("input month > ")
       fmt.Scan(&in_tsuki)
       var nisu int = 0
       var yobi int = 0
